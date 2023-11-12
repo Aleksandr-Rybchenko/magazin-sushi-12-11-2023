@@ -1,11 +1,13 @@
-import styles from "../Meals/PromoText.module.css"
+import styles from "./PromoText.module.css"
+
 const PromoText = () => {
   return (
     <section className={styles["promo-text"]}>
-      <h1>Онлайн замовлення суші Київ</h1>
-      <p>найкращі суші у вашому місті Київ</p>
-      <p>Швидка доставка по місту</p>
+      <h2>Онлайн Суші Ресторан в Києві</h2>
+      <p>Найкращі суші в вашому місті</p>
+      <p>Найшвидша доставка та найкращі відгуки</p>
     </section>
   )
 }
+
 export default PromoText
